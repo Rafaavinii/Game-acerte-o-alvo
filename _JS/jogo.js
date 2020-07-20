@@ -48,7 +48,7 @@ function posicaoRandomica() {
         if(lifes > 8) {
             window.location.href = 'fim-de-jogo.html'
         } else{
-            document.getElementById('l' + lifes).src = '/img/coracao_vazio.png'
+            document.getElementById('l' + lifes).src = '/_img/coracao_vazio.png'
             lifes++
         }
     }
@@ -61,7 +61,7 @@ function posicaoRandomica() {
 
     //Criar o elemento html
     var alvo = document.createElement('img')
-    alvo.src = '/img/pontaria.png'
+    alvo.src = '/_img/pontaria.png'
     alvo.className = tamanhoAleatorio()
     alvo.style.left = posicaoX + 'px'
     alvo.style.top = posicaoY + 'px'

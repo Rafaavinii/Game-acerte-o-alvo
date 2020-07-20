@@ -1,0 +1,47 @@
+html{
+    cursor: crosshair
+}
+
+body{
+    background-color: rgb(63, 64, 68);
+}
+
+.alvo1 {
+    width: 50px;
+    height: 50px;
+}
+
+.alvo2 {
+    width: 70px;
+    height: 70px;
+}
+
+.alvo3 {
+    width: 90px;
+    height: 90px;
+}
+
+.painel {
+    position: absolute;
+    width: 350px;
+    padding: 0px;
+    left: 0px;
+    bottom: 0px;
+    border-bottom: solid 1px rgb(255, 0, 0);
+}
+
+.life {
+    float: left;
+}
+
+.cronometro {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pontuacao {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
